@@ -1,6 +1,5 @@
-# [**Web Engineering course**](https://people.disim.univaq.it/~dellapenna/content.php?page=students) course
+# [**Web Engineering**](https://people.disim.univaq.it/~dellapenna/content.php?page=students) course
 > University of L'Aquila, Italy
-Public organization-wide repository
 
 ![University of L'Aquila](https://www.disim.univaq.it/skins/aqua/img/logo2021-2.png)
 
