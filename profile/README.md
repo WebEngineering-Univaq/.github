@@ -98,7 +98,9 @@ dell'ambiente.*
  termine delle modifiche.
 
     a. netbeans_default_userdir=\"\<D\>/nb_userdir\"
+    
     b. netbeans_default_cachedir=\"\<D\>/nb_cachedir\"
+    
     c. netbeans_jdkhome=\"\<D\>/jdk-16-0-1\"
 
 ### Primo Avvio dell'IDE
@@ -123,9 +125,13 @@ dell'ambiente.*
 8. A questo punto potete procedere a **connettere Netbeans a Tomcat**.
 
    a. Selezionate la voce di menu **Tool \> Servers** e di seguito il bottone "*Add Server...*".
+   
    b. Nel successivo wizard selezionate "*Apache Tomcat or TomEE*" e come "*Server location*" specificate la cartella \<D\>/apache-tomcat-9.0.17 (*anche qui il nome effettivo cambierà al variare della versione, ovviamente*).
+   
    c. Opzionalmente, spuntate la casella "*use private configuration folder*" e immettete come "*Catalina base*" la cartella \<D\>/tomcat_base. Questa operazione non è necessaria se avete decompresso Tomcat nella vostra home utente, mentre lo è nel caso in cui lo abbiate installato in altre posizioni sulla vostra macchina (ad esempio nella cartella Programmi di Windows).
+   
    d. Inserite delle credenziali semplici nelle caselle "*Username*" e "*Password*" (l'IDE potrebbe richiedervele più volte in futuro) e assicuratevi che la casella "*Create user if if does not exist*" sia spuntata.
+   
    e. Terminate il processo. A questo punto dovreste vedere il server appena istallato nella lista "Servers" del box di dialogo. Controllate che nella linguetta "*Platform*" relativa al nuovo server la "*Java Platform*" sia la stessa JDK di default usata dall'IDE.
 
 ### Test della Configurazione
@@ -134,5 +140,6 @@ dell'ambiente.*
 
    a. Provate prima di tutto ad **avviare Tomcat** cliccando 
 	col tasto destro sulla relativa sotto-voce del nodo "*Servers*" presente nella linguetta/box "*Services*" dell'IDE e selezionando "*Start*". Se vi vengono chieste le credenziali per la "*Tomcat Manager Application*", inserite quelle definite al punto 8.d. Se tutto va bene, vedrete i log del server mostrati dall'IDE elencare una serie di informazioni che termineranno con una riga del tipo "*Server startup in \[...\] milliseconds*". Questo vuol dire che il server si è avviato con successo.
+	
    b. **Create una semplice web application**, aggiungetevi una servlet e provate ad eseguire il tutto. 
 Se il browser web si apre mostrando la pagina di benvenuto di default dell'applicazione (index), provate ad accedere alla URL della servlet che avete creato. Se anche la servlet vi risponde col suo messaggio di default, l'ambiente è configurato correttamente. Nota: potreste dover configurare quale browser aprire automaticamente selezionandolo dalla voce di menu **Tools \> Options.**
