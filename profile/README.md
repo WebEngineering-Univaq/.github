@@ -1,4 +1,4 @@
-# [**Web Engineering**](https://people.disim.univaq.it/~dellapenna/content.php?page=students) course
+# [**Web Engineering**](https://webengineering-univaq.github.io/) course
 > University of L'Aquila, Italy
 
 **Course pages**: https://webengineering-univaq.github.io
