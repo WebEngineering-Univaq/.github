@@ -1,4 +1,4 @@
-# [**Web Engineering**](https://webengineering-univaq.github.io/) course
+# **Web Engineering** course
 > University of L'Aquila, Italy
 
 **Course pages**: https://webengineering-univaq.github.io
